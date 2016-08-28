@@ -89,7 +89,7 @@ $(document).ready(function(){
 	  geographyConfig: {
 	    highlightBorderColor: '#bada55',
 	   popupTemplate: function(geography, data) {
-	        return '<div class="hoverinfo">' + geography.properties.name + 
+	        return '<div class="hoverinfo">' + geography.properties.name +
 		'Electoral Votes:' +  data.electoralVotes + ' '
 	    },
 	    highlightBorderWidth: 3
@@ -102,19 +102,19 @@ $(document).ready(function(){
 	  'Light Democrat': '#A9C0DE',
 	  'Heavy Republican': '#CA5E5B',
 	  'Light Republican': '#EAA9A8',
-	  defaultFill: '#EDDC4E'
+	  defaultFill: 'rgb(28, 152, 28)'
 	},
 	data:{
 	  "AZ": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 5
 	  },
 	  "CO": {
-	      "fillKey": "Light Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 5
 	  },
 	  "DE": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "FL": {
@@ -122,103 +122,103 @@ $(document).ready(function(){
 	      "electoralVotes": 29
 	  },
 	  "GA": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "HI": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "ID": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "IL": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "IN": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 11
 	  },
 	  "IA": {
-	      "fillKey": "Light Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 11
 	  },
 	  "KS": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "KY": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "LA": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "MD": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "ME": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "MA": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "MN": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "MI": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "MS": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "MO": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 13
 	  },
 	  "MT": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "NC": {
-	      "fillKey": "Light Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "NE": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "NV": {
-	      "fillKey": "Heavy Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "NH": {
-	      "fillKey": "Light Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "NJ": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "NY": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "ND": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "NM": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "OH": {
@@ -226,89 +226,90 @@ $(document).ready(function(){
 	      "electoralVotes": 32
 	  },
 	  "OK": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "OR": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "PA": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "RI": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "SC": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "SD": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "TN": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "TX": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "UT": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "WI": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "VA": {
-	      "fillKey": "Light Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "VT": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "WA": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "WV": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "WY": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "CA": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "CT": {
-	      "fillKey": "Democrat",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "AK": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "AR": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  },
 	  "AL": {
-	      "fillKey": "Republican",
+	      "fillKey": "UNDECIDED",
 	      "electoralVotes": 32
 	  }
 	}
 	});
 	election.labels();
+
+	results.forEach(function(ele) {
+		$("path.datamaps-subunit." + ele.name.toLowerCase()).css('opacity', ele.accuracy);
+	});
 });
-
-
-
